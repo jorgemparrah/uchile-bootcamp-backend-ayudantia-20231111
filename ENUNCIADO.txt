@@ -1,0 +1,20 @@
+Vamos a realizar un sistema para una biblioteca.
+Hay libro y usuarios registrados. Se debe indicar cuales libros tiene un usuario.
+Y como sería el proceso para retirar un libro.
+
+Usuario
+- RUT
+- Nombre
+- Correo
+- Libros (lista - referencias) - El usuario puede tener más de 1 libro
+
+Libros
+- Titulo
+- Editorial (documento anidado)
+  - Nombre
+  - Telefono
+  - Correo
+- Autores (lista de documentos anidados)
+  - Nombre
+  - Apellido
+- Cantidad
